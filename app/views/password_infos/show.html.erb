@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @password_info %>
+
+<div>
+  <%= link_to "Edit this password info", edit_password_info_path(@password_info) %> |
+  <%= link_to "Back to password infos", password_infos_path %>
+
+  <%= button_to "Destroy this password info", @password_info, method: :delete %>
+</div>

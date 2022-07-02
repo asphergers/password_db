@@ -1,0 +1,2 @@
+class PasswordInfo < ApplicationRecord
+end
